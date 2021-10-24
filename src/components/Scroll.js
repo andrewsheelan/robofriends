@@ -7,7 +7,6 @@ const Scroll = ({ children }) => {
 const styles = {
   container: {
       overflowY: 'scroll',
-      borderTop: '5px solid black',
       height: '800px'
   },
 };

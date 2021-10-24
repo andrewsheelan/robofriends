@@ -28,8 +28,10 @@ class App extends Component {
 
     return (
       <div className="tc">
-        <h1 className="f1">Hello RObOtS!</h1>
-        <SearchBox onSearchChange={this.onSearchChange} />
+        <div className="shadow-5-l">
+          <h1 className="f1">Hello RObOtS!</h1>
+          <SearchBox onSearchChange={this.onSearchChange} />
+        </div>
         <Scroll>
           <ErrorBoundary>
             <CardList robots={filteredRobots} />
